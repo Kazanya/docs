@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'green',
+      primary: 'purple',
       neutral: 'slate'
     }
   },
@@ -14,7 +14,7 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template'
+    siteName: 'Stream HQ - Dokumentation'
   },
   header: {
     title: '',
@@ -26,59 +26,34 @@ export default defineAppConfig({
     },
     search: true,
     colorMode: true,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-pro/docs',
-      'target': '_blank',
-      'aria-label': 'GitHub'
-    }]
+    links: []
   },
   footer: {
     credits: `Copyright © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-nuxtdotjs',
-      'to': 'https://nuxt.com',
-      'target': '_blank',
-      'aria-label': 'Nuxt Website'
+      icon: 'i-lucide-link',
+      to: 'https://hendycap.com',
+      target: '_blank',
+      'aria-label': 'Stream HQ Website'
     }, {
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://discord.com/invite/ps2h6QT',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on Discord'
+      icon: 'i-simple-icons-discord',
+      to: 'https://discord.gg/vjmrCDFyJP',
+      target: '_blank',
+      'aria-label': 'Stream HQ on Discord'
     }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://x.com/nuxt_js',
-      'target': '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      icon: 'i-simple-icons-x',
+      to: 'https://x.com/hendycapp',
+      target: '_blank',
+      'aria-label': 'HendyCapp on X'
     }]
   },
   toc: {
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/nuxt-ui-pro/docs/edit/main/content',
-      links: [{
-        icon: 'i-lucide-star',
-        label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
-        target: '_blank'
-      }, {
-        icon: 'i-lucide-book-open',
-        label: 'Nuxt UI Pro docs',
-        to: 'https://ui.nuxt.com/getting-started/installation/pro/nuxt',
-        target: '_blank'
-      }, {
-        icon: 'i-simple-icons-nuxtdotjs',
-        label: 'Purchase a license',
-        to: 'https://ui.nuxt.com/pro/purchase',
-        target: '_blank'
-      }]
+      edit: 'https://github.com/Kazanya/docs/edit/main/content',
+      links: []
     }
   }
 })
