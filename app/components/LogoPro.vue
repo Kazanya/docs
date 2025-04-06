@@ -1,3 +1,3 @@
 <template>
-Stream HQ
+  Stream HQ
 </template>

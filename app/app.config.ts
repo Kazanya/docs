@@ -32,19 +32,19 @@ export default defineAppConfig({
     credits: `Copyright © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      icon: 'i-lucide-link',
-      to: 'https://hendycap.com',
-      target: '_blank',
+      'icon': 'i-lucide-link',
+      'to': 'https://hendycap.com',
+      'target': '_blank',
       'aria-label': 'Stream HQ Website'
     }, {
-      icon: 'i-simple-icons-discord',
-      to: 'https://discord.gg/vjmrCDFyJP',
-      target: '_blank',
+      'icon': 'i-simple-icons-discord',
+      'to': 'https://discord.gg/vjmrCDFyJP',
+      'target': '_blank',
       'aria-label': 'Stream HQ on Discord'
     }, {
-      icon: 'i-simple-icons-x',
-      to: 'https://x.com/hendycapp',
-      target: '_blank',
+      'icon': 'i-simple-icons-x',
+      'to': 'https://x.com/hendycapp',
+      'target': '_blank',
       'aria-label': 'HendyCapp on X'
     }]
   },
