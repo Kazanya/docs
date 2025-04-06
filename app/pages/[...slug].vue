@@ -37,9 +37,7 @@ defineOgImageComponent('Docs', {
 })
 
 const links = computed(() => {
-  const links = []
-
-  return [...links, ...(toc?.bottom?.links || [])].filter(Boolean)
+  return [...(toc?.bottom?.links || [])].filter(Boolean)
 })
 </script>
 
