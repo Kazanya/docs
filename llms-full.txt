@@ -9,5 +9,25 @@ Falls irgendetwas fehlen sollte, besser beschrieben werden könnte oder du sonst
 
 
 
+# Streamplan
+
+
+
+# Discord Benachrichtigungen
+
+#
+
+
 # Anwesenheit
 
+## Wie pflege ich meine Anwesenheit?
+
+::prose-card{target="_blank" to="https://hendycap.com/availability"}
+Zur Anwesenheitspflege
+::
+
+wip
+
+## Zeiten pflegen
+
+## Du bist Abwesend?
