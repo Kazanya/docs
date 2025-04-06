@@ -1,8 +1,7 @@
 ---
 seo:
-  title: Nuxt UI Pro - Docs template
-  description: Nuxt UI Pro is a collection of premium Vue components built on top
-    of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+  title: Stream HQ - Dokumentation
+  description: Die Dokumentation für das Kommandozentrum deiner Mods!
 ---
 
 ::u-page-hero
@@ -16,7 +15,12 @@ Stream HQ
 Die Dokumentation für das Kommandozentrum deiner Mods!
 
 #links
-  :::u-button{size="xl" to="/getting-started" trailing-icon="i-lucide-arrow-right"}
+  :::u-button
+  ---
+  size: xl
+  to: /getting-started
+  trailing-icon: i-lucide-arrow-right
+  ---
   Get started
   :::
 ::
