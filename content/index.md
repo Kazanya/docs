@@ -16,7 +16,7 @@ Stream HQ
 Die Dokumentation für das Kommandozentrum deiner Mods!
 
 #links
-  :::u-button{size="xl" to="/streamer" trailing-icon="i-lucide-arrow-right"}
+  :::u-button{size="xl" to="/getting-started" trailing-icon="i-lucide-arrow-right"}
   Get started
   :::
 ::

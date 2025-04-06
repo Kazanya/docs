@@ -54,12 +54,12 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://docs-template.nuxt.dev/',
-    title: 'Nuxt UI Pro - Docs template',
-    description: 'A template for building documentation with Nuxt UI Pro and Nuxt Content',
+    domain: 'https://docs.hendycap.com/',
+    title: 'Stream HQ - Dokumentation',
+    description: 'Dokumentation für die Stream HQ Applikation',
     full: {
-      title: 'Nuxt UI Pro - Docs template Full Documentation',
-      description: 'This is the full documentation for the Nuxt UI Pro - Docs template'
+      title: 'Stream HQ - Dokumentation',
+      description: 'Dokumentation für die Stream HQ Applikation'
     },
     sections: [
       {
@@ -70,10 +70,17 @@ export default defineNuxtConfig({
         ]
       },
       {
-        title: 'Essentials',
+        title: 'Streamer',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/essentials%' }
+          { field: 'path', operator: 'LIKE', value: '/streamer%' }
+        ]
+      },
+      {
+        title: 'Mods',
+        contentCollection: 'docs',
+        contentFilters: [
+          { field: 'path', operator: 'LIKE', value: '/mods%' }
         ]
       }
     ]

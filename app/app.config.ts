@@ -51,9 +51,13 @@ export default defineAppConfig({
   toc: {
     title: 'Table of Contents',
     bottom: {
-      title: 'Community',
-      edit: 'https://github.com/Kazanya/docs/edit/main/content',
-      links: []
+      title: 'Links',
+      links: [{
+        icon: 'i-lucide-link',
+        label: 'Stream HQ',
+        to: 'https://hendycap.com',
+        target: '_blank'
+      }]
     }
   }
 })
