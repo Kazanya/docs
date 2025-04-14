@@ -11,7 +11,31 @@ Falls irgendetwas fehlen sollte, besser beschrieben werden könnte oder du sonst
 
 # Discord Benachrichtigungen
 
-#
+<https://discord.com/developers/docs/reference#message-formatting>{rel="nofollow"}
+
+## Rollen verlinken
+
+Format: `<@&ROLE_ID>`
+
+Beispiel: `<@&165511591545143296>`
+
+## User verlinken
+
+Format: `<@USER_ID>`
+
+Beispiel: `<@80351110224678912>`
+
+## Emojis
+
+Format: `<:NAME:ID>`
+
+Beispiel: `<:mmLol:216154654256398347>`
+
+## Animated Emojis
+
+Format: `<a:NAME:ID>`
+
+Beispiel: `<a:b1nzy:392938283556143104>`
 
 
 # Anwesenheit
