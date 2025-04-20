@@ -13,7 +13,7 @@
 ## Streamer
 
 - [Streamplan](https://docs.hendycap.com/streamer/schedule)
-- [Discord Benachrichtigungen](https://docs.hendycap.com/streamer/notifications): https://discord.com/developers/docs/reference#message-formatting
+- [Discord Benachrichtigungen](https://docs.hendycap.com/streamer/notifications)
 
 ## Mods
 

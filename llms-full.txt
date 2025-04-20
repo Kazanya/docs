@@ -11,7 +11,7 @@ Falls irgendetwas fehlen sollte, besser beschrieben werden könnte oder du sonst
 
 # Discord Benachrichtigungen
 
-<https://discord.com/developers/docs/reference#message-formatting>{rel="nofollow"}
+[https://discord.com/developers/docs/reference#message-formatting](https://docs.hendycap.com)
 
 ## Rollen verlinken
 
