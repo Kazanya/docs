@@ -22,9 +22,7 @@ Um IDs in Discord zu kopieren, musst du zuerst den **Entwicklermodus** aktiviere
 ### Desktop
 
 1. Klicke auf das Zahnrad \[
-
    :icon{name="i-lucide-cog"}
-
    ] in der unteren linken Ecke der Desktop-App, um deine Benutzereinstellungen zu öffnen.
 2. Gehe dann zu Erweitert.
 3. Klicke nun auf den Hauptschalter neben Entwicklermodus, um ihn zu aktivieren. Ein „Häkchen“ bedeutet, dass er aktiviert ist, ein „x“ bedeutet, dass er deaktiviert ist.
@@ -33,9 +31,7 @@ Um IDs in Discord zu kopieren, musst du zuerst den **Entwicklermodus** aktiviere
 
 1. Tippe auf deinen Avatar in der unteren rechten Ecke.
 2. Tippe dann auf das Zahnrad \[
-
    :icon{name="i-lucide-cog"}
-
    ] in der oberen rechten Ecke.
 3. Scrolle nun nach unten, bis du Erweitert unter App-Einstellungen siehst.
 4. Tippe abschließend auf das Kästchen neben Entwicklermodus. Ein „Häkchen“ bedeutet, dass es aktiviert ist, während ein „x“ bedeutet, dass es deaktiviert ist.
