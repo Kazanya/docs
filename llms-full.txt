@@ -4,22 +4,91 @@ Willkommen in der Dokumentation für Stream HQ!
 
 Falls irgendetwas fehlen sollte, besser beschrieben werden könnte oder du sonstige Anmerkungen hast, meld dich doch gerne in Discord! :)
 
+<https://discord.gg/vjmrCDFyJP>{rel="nofollow"}
+
+
+# Teams
+
+## Was sind Teams?
+
+## Wie wechsel ich mein Team?
+
 
 # Streamplan
 
+::prose-card{target="_blank" to="https://stream-hq.com/availability"}
+Zum Streamplan
+::
+
+An dieser Stelle findest du deinen aktuell hochgeladenen Streamplan, dieser wird am Anfang der Seite angezeigt.
+Dieser kann auch von deinen Mods hier eingesehen werden. Jedoch kannst du nur als Streamer deinen Streamplan bearbeiten.
+Deine Mods können den Plan also nur ansehen. Das Bearbeiten und Hochladen steht also nur dem Streamer zur Verfügung.
+
+## Wie lade ich einen Streamplan hoch?
+
+::note
+Bitte beachte: Der Streamplan darf eine Maximalgröße von **4 MB** haben, ansonsten schlägt das Hochladen fehl.
+::
+
+Über das Uploadfeld `Choose File` kannst du deinen Streamplan hochladen. Mit einem Klick auf den `Speichern` Button wird der neue Streamplan gespeichert.
+Im Hintergrund werden nun die Notifications ausgeführt, die deinen Streamplan in den Discord posten.
+
+## Mir wird das Feld für die Nachricht nicht angezeigt
+
+Dann hast du wahrscheinlich vergessen eine deiner Notifications als `Main Notification` zu markieren.
+
+::prose-card
+---
+target: _blank
+to: https://docs.stream-hq.com/streamer/notifications#was-bedeutet-die-checkbox-main-notification
+---
+Wie markiere ich eine Notification als `Main Notification`?
+::
 
 
 # Notifications
+
+## Was sind Notifications?
+
+Notifications dienen dazu deinen Streamplan inklusive einer Nachricht an einen Channel in deinen Discord zu senden. Die Notifications werden nach dem Upload deines Streamplans ausgeführt.
+Du kannst ihnen einen Namen vergeben, damit du schneller erkennen kannst, wofür du die Notification eingerichet hast.
+
+Außerdem kannst du eine Nachricht pflegen, die beim Upload des Streamplans mit in den Discord Channel gepostet wird.
+
+### Was macht der Type?
+
+Der Type wird für ein späteres Feature noch relevant. Es kann dann eingestellt werden, für welche Funktion die Notification ausgeführt werden soll.
+
+### Was bedeutet die Checkbox Main Notification?
+
+Durch die Option `Main Notification` kannst du eine deiner Notification als Haupt-Notification markieren.
+Dadurch kannst du die Nachricht direkt beim Hochladen deines Streamplans bearbeiten und musst nicht extra in die Notification dafür gehen.
+
+### Discord Webhook Url
+
+Die Discord Webhook Url wird benötigt, damit Stream HQ weiß in welchen Channel dein Streamplan gepostet werden soll.
+Discord stellt hier eine super Erklärung für die Webhooks bereit, auch wie sie erstellt werden können: <https://support.discord.com/hc/de/articles/228383668-Einleitung-in-Webhooks>{rel="nofollow"}
+
+### Message
+
+Ist die Nachricht, die zusätzlich zu deinem Streamplan in den Discord Channel gepostet wird.
+
+---
+
+## Wie verlinke ich Rollen, User oder binde meine custom Discord Emojis ein?
+
+Für das verlinken von Rollen, Usern oder das einfügen von custom Discord Emojis ist ein spezielles Markup in der Nachricht nötig.
+Dafür werden die IDs der jeweiligen Rollen, User oder Emojis notwendig.
 
 <https://discord.com/developers/docs/reference#message-formatting>{rel="nofollow"}
 
 <https://support.discord.com/hc/de/articles/206346498-Wo-kann-ich-meine-Benutzer-Server-Nachrichten-ID-finden>{rel="nofollow"}
 
-## Wie finde ich die IDs?
+### Wie finde ich die IDs?
 
 Um IDs in Discord zu kopieren, musst du zuerst den **Entwicklermodus** aktivieren. So geht's:
 
-### Desktop
+#### Desktop
 
 1. Klicke auf das Zahnrad \[
    :icon{name="i-lucide-cog"}
@@ -27,7 +96,7 @@ Um IDs in Discord zu kopieren, musst du zuerst den **Entwicklermodus** aktiviere
 2. Gehe dann zu Erweitert.
 3. Klicke nun auf den Hauptschalter neben Entwicklermodus, um ihn zu aktivieren. Ein „Häkchen“ bedeutet, dass er aktiviert ist, ein „x“ bedeutet, dass er deaktiviert ist.
 
-### Mobilgerät
+#### Mobilgerät
 
 1. Tippe auf deinen Avatar in der unteren rechten Ecke.
 2. Tippe dann auf das Zahnrad \[
@@ -40,13 +109,13 @@ Sobald der Entwicklermodus aktiviert ist, kannst du IDs, wie im folgenden beschr
 
 Nachdem du die ID kopiert hast, kannst du sie mit `Strg+V` (Windows) oder `Cmd+V` (Mac) in ein Textfeld einfügen.
 
-## Rollen verlinken
+### Rollen verlinken
 
 Format: `<@&ROLE_ID>`
 
 Beispiel: `<@&165511591545143296>`
 
-### Rollen-ID kopieren:
+#### Rollen-ID kopieren:
 
 - **Desktop:**
   1. Gehe zu den **Servereinstellungen**.
@@ -61,30 +130,30 @@ Beispiel: `<@&165511591545143296>`
   5. Tippe auf die **drei Punkte** (Ellipsis) oben rechts.
   6. Wähle **ID kopieren**.
 
-## User verlinken
+### User verlinken
 
 Format: `<@USER_ID>`
 
 Beispiel: `<@80351110224678912>`
 
-### Benutzer-ID kopieren:
+#### Benutzer-ID kopieren:
 
 - **Desktop:** Rechtsklicke auf den Benutzernamen und wähle **Benutzer-ID kopieren**.
 - **Mobilgerät:** Tippe auf den Benutzernamen, tippe dann auf die **drei Punkte** (Ellipsis) oben rechts und wähle **Benutzer-ID kopieren**.
 
-## Emojis
+### Emojis
 
 Format: `<:NAME:ID>`
 
 Beispiel: `<:mmLol:216154654256398347>`
 
-## Animated Emojis
+### Animated Emojis
 
 Format: `<a:NAME:ID>`
 
 Beispiel: `<a:b1nzy:392938283556143104>`
 
-### Emoji-ID kopieren (für benutzerdefinierte Server-Emojis):
+#### Emoji-ID kopieren (für benutzerdefinierte Server-Emojis):
 
 - **Desktop:**
   1. Öffne ein Textfeld in Discord.
@@ -107,12 +176,16 @@ Beispiel: `<a:b1nzy:392938283556143104>`
 
 ## Wie pflege ich meine Anwesenheit?
 
-::prose-card{target="_blank" to="https://hendycap.com/availability"}
+::prose-card{target="_blank" to="https://stream-hq.com/availability"}
 Zur Anwesenheitspflege
 ::
 
-wip
+Deine Anwesenheit kannst du direkt in Stream HQ unter dem Menüpunkt "Mods -> Anwesenheit" pflegen.
 
 ## Zeiten pflegen
 
-## Du bist Abwesend?
+Optional kannst du auch Zeiten pflegen, in denen du Anwesend bist. Zeiten sind nicht pflicht und können auch gerne einfach leer gelassen werden.
+
+## Du bist abwesend?
+
+Falls du komplett abwesend bist, kannst dies über die Checkbox am Anfang angeben. Dadurch werden deine Zeiten zurückgesetzt und können auch nicht ausgefüllt werden.

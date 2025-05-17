@@ -9,6 +9,7 @@
 ## Getting Started
 
 - [Introduction](https://docs.hendycap.com/getting-started)
+- [Teams](https://docs.hendycap.com/getting-started/teams)
 
 ## Streamer
 
